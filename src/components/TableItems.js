@@ -7,7 +7,7 @@ const TableItems = (props) => {
       <td>
         <input
           type="checkbox"
-          checked={props.isSelect}
+          checked={props.data.isSelect}
           onChange={() => props.onselect(props.data)}
         />
       </td>
